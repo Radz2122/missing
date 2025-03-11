@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Person Alert</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c1e3f9;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .poster {
+            background: white;
+            padding: 20px;
+            border: 5px solid black;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            box-sizing: border-box;
+        }
+        .poster h1 {
+            color: red;
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .emoji {
+            font-size: 100px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .poster p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .contact {
+            background: black;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .banana {
+            color: yellow;
+            font-weight: bold;
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 480px) {
+            .poster {
+                width: 95%;
+                padding: 15px;
+            }
+            .poster h1 {
+                font-size: 20px;
+            }
+            .emoji {
+                font-size: 80px;
+            }
+            .poster p {
+                font-size: 16px;
+            }
+            .contact {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="poster">
+        <h1>Missing Person</h1>
+        <div class="emoji">🐵</div>
+        <p><strong>Name:</strong> Leonard Monkey Jay Opendo</p>
+        <p><strong>Last Seen:</strong> March 10, 2025 in vroom vroom car</p>
+        <p><strong>Description:</strong> Tall, Dark, Handsome, Chimp-like</p>
+        <div class="contact">
+            <p>If found, please give <strong class="banana">banana</strong> and return home ASAP</p>
+        </div>
+    </div>
+
+</body>
+</html>
